@@ -200,7 +200,7 @@ def parse_toc():
     return toc
 
 
-def parse_book(proc: Callable) -> Dict[str, List[Dict[str, Union[str, List]]]]:
+def parse_book(proc: Callable) -> List[Dict[str, Union[str, List]]]:
     """
     Parse entire book from toc
 
